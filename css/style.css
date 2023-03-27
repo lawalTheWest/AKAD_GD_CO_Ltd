@@ -1,0 +1,155 @@
+body {	
+	background-color: navy;
+	color: white;
+	font-family: sans-serif;
+	margin: 0;
+	/*margin-top: 50px;*/
+	padding: 0;
+	align-content: center; 
+	text-align: center; 
+	justify-content: center;
+}
+
+
+#div001 {
+	background-color: white;
+	color: black;
+	margin: 10px;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+a:link {
+	color: pink;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: yellow;
+}
+a:active {
+	color: green;
+}
+
+#divten {
+	margin: 10px;
+	padding: 0;
+	font-stretch: semi-expanded;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#divtenth{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+	animation: myanimation 100s infinite;
+}
+@keyframes myanimation {
+	0%  	{background-color: red;
+		color: white;}
+	10% 	{background-color: green;
+		color: white;}
+	20%		{background-color: yellow;
+		color: red;}
+	30%		{background-color: purple;
+		color: yellow;}
+	40%		{background-color: brown;
+		color: white;}
+	50%		{background-color: cyan;
+		color: black;}
+	60%		{background-color: magenta;
+		color: white;}
+	70%		{background-color: black;
+		color: red;}
+	80%		{background-color: white;
+		color: black;}
+	90%		{background-color: blue;
+		color: red;}
+	100%	{background-color: pink;
+		color: white;}
+
+}
+
+#div002 {
+	margin: 10px;
+}
+
+#spaa{
+	padding: 5px;
+	margin 10px;
+	color grey;
+	border-radius: 2px solid black;
+}
+
+section {
+	background-color: white;
+	color: black;
+	margin: 10px;
+	/*float: auto;*/
+	min-height: 320px;
+	/*width: 65%;*/
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	padding: 10px;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#div003 {
+	display: inline-grid;
+	margin: 0 20px 0 20px;
+	width: auto;
+}
+
+#div004 {
+	margin: 0 0 20px 0;
+}
+
+footer, a {
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+	color: white;
+}
+
+
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 ;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+
+
+  }
+  section, article {
+  	min-width: 50px;
+  }
+}
+
+footer {
+	padding: 30px 10px 30px 10px;
+	margin: 20px 0 0 0 0;	
+}
+
